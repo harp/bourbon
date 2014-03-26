@@ -6,13 +6,21 @@
 
 * [NodeJS](http://nodejs.org/) – _Server-side JavaScript runtime_
 * [Harp](http://harpjs.com/) – _The static web server with built-in preprocessing_
+* [Component](http://component.io) – _Client package management for building better web applications_
 
 ## Install
 
-To install Bourbon, run the following command from the root of your harp project:
+First, install Harp and Component:
 
 ```bash
-harp install bourbon
+sudo npm install -g harp
+sudo npm install -g component
+```
+
+To install Bourbon, run the following commands from the root of your Harp project:
+
+```bash
+component install harp/bourbon
 ```
 
 Your project will look something like this…
@@ -20,9 +28,9 @@ Your project will look something like this…
 ```
 myproject/                  <-- your project root (or public dir if in framework-mode)
   |- components/            <-- harp puts components here
-  |   +- harp-bourbon/    <-- where this lib gets installed
+  |   +- harp-bourbon/      <-- where this lib gets installed
   |       …
-  |- main.scss              <-- where you reference Bourbon 
+  |- main.scss              <-- where you reference Bourbon
   +- index.jade             <-- where you reference main.css
 ```
 
