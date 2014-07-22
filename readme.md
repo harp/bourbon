@@ -6,20 +6,13 @@
 
 * [NodeJS](http://nodejs.org/) – _Server-side JavaScript runtime_
 * [Harp](http://harpjs.com/) – _The static web server with built-in preprocessing_
-* [Component](http://component.io) – _Client package management for building better web applications_
 
 ## Install
 
-First, install Harp and Component:
+To install Bourbon, you can [download this repository](https://github.com/harp/bourbon/archive/master.zip) or use the [Component](http://component.io) package manager.
 
 ```bash
-sudo npm install -g harp
-sudo npm install -g component
-```
-
-To install Bourbon, run the following commands from the root of your Harp project:
-
-```bash
+npm install -g component
 component install harp/bourbon
 ```
 
